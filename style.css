@@ -1,0 +1,41 @@
+.header_div{
+    color:white;
+    background:rgb(250, 78, 78);
+    text-shadow:2px 2px 5px grey;
+    margin-top:0px;
+    padding:20px;
+}
+.main_div button{
+    font-family:sans-serif;
+    margin-top:30px;
+    letter-spacing:3px;
+    width:130px;
+}
+body{
+    background:rgb(88, 213, 255);
+    font-family: 'Roboto Slab', serif;
+}
+.header_div p{ 
+ color:white;
+ font-size:14px;
+ letter-spacing: 2px;
+ font-family:'Courier New', Courier, monospace;
+ font-weight: bold;
+}
+.footer_div{
+    bottom:0;
+    position: fixed;
+    width:100%;
+    background-color:grey;
+    font-size:18px;
+    text-shadow:2px 2px 5px white;
+    text-align:center;
+}
+img{
+    width:500px;
+    height:500px;
+    border-radius:3px;
+    border-color: black;
+
+    
+}

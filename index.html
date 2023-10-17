@@ -1,0 +1,39 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+        <div class="header_div">
+          <h1>Sound Controlled Animals</h1>
+          <p>Note : play different animal sounds like barking, moewing, roaring and mooing to make the animal appear  </p>
+        </div>
+        <div class="main_div">
+          <br>
+          <h3 id="label">I can hear-</h3>
+          <h4 id="confidence">Accuracy-</h4>
+
+          <button class="btn btn-primary" onclick="start()">START</button>
+          <br>
+          
+          <img src="listen.gif" id="animal_images">
+
+        </div>
+        <div class="footer_div">
+          Developed by : Sasha Iievliev
+        </div>
+      </center>
+    <script src="main.js"></script>
+
+  </body>
+
+</html>
